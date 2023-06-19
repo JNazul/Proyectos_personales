@@ -1,0 +1,66 @@
+<meta charset="UTF-8">
+<h1> PROGRAMA Indice De Masa Corporal </h1>
+
+<script>
+	
+	function saltarlinea() {
+
+		document.write("<br>");
+		document.write("<br>");
+		document.write("<br>");
+	}
+
+	function imprimir(frase) {
+
+		document.write(frase);
+		saltarlinea();
+
+	}
+
+	function CalcularImc(peso,altura,) {
+
+	   return (peso / (altura * altura)); 
+		
+				
+	}
+	
+	nombre = prompt("informe su nombre");
+	pesoInformado = prompt(nombre+", informe su peso");
+	alturaInformada = prompt(nombre+", informe su altura");
+
+	imcCalculado = CalcularImc(pesoInformado,alturaInformada);
+
+	imprimir(nombre + ", su promedio del imc calculado es: " + imcCalculado);
+
+
+	if (imcCalculado < 18.5) {
+
+		imprimir("Su IMC segun la OMS dice que usted tiene Esta por debajo de lo recomendado");
+	}
+
+	if (imcCalculado >18.5) {
+
+		if (imcCalculado < 25.0) {
+
+			imprimir("Su IMC segun la OMS dice que usted Esta en lo recomendado");
+
+		}
+
+	}
+
+	if (imcCalculado > 25) {
+
+		if (imcCalculado < 30) {
+
+		imprimir("Su IMC segun la OMS dice que usted tienetiene sobrepeso")
+
+		}
+	}
+	
+
+	if (imcCalculado >= 30) {
+
+		imprimir("Su IMC segun la OMS dice que usted tiene obesidad")
+	}
+	
+</script>
