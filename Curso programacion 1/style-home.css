@@ -1,0 +1,60 @@
+body{
+    background-color: #4b4b4b;
+}
+
+.encabezado{
+    padding-left: 30px
+}
+
+h1{
+    color: blanchedalmond;
+}
+
+#banner{
+    width: 100%;
+}
+
+.principal{
+    background-color: #CCCCCC;
+    padding: 20px;
+}
+
+.centralizar-titulos{
+    text-align: center;
+    font-size: 30px;
+    color: blanchedalmond;
+}
+
+p{
+    text-align: center;
+}
+
+
+#mision{
+    font-size: 20px;
+    color: red;
+}
+
+.diferenciales{
+    background-color: #4b4b4b;
+    padding: 30px;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagenDiferenciales{
+    width: 50%;
+
+}
+
+
+.items{
+    font-style: italic;
+    color: blanchedalmond   ;
+}
+
